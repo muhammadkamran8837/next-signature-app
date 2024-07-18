@@ -17,7 +17,7 @@ const SignaturePad = ({ penColor, penWidth }) => {
 
   const updateCanvasDimensions = () => {
     const width = window.innerWidth < 768 ? window.innerWidth * 0.9 : 1000
-    const height = window.innerWidth < 768 ? 200 : 300
+    const height = window.innerWidth < 768 ? 300 : 400
     setCanvasWidth(width)
     setCanvasHeight(height)
   }
